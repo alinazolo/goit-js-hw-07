@@ -1,8 +1,8 @@
 const changeColor = document.querySelector('.change-color');
 const color = document.querySelector('.color');
 function changeBackgroundColor() {
-  document.body.style.backgroundColor = `${getRandomHexColor()}`;
-  color.textContent = `${getRandomHexColor()}`;
+  const randomColor = document.body.style.backgroundColor = `${getRandomHexColor()}`;
+  color.textContent = `${randomColor}`;
 }
 
 function getRandomHexColor() {
